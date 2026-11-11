@@ -1,0 +1,17 @@
+com\mycompany\veteritson\pantallas\PantallaRegistroVeterinario.class
+com\mycompany\veteritson\pantallas\PantallaSolicitudCita.class
+com\mycompany\veteritson\pantallas\PantallaRegistroVacuna.class
+com\mycompany\veteritson\pantallas\PantallaRegistroMascota.class
+com\mycompany\veteritson\pantallas\PantallaCartilla.class
+com\mycompany\veteritson\pantallas\mock\DatosMock$Cita.class
+com\mycompany\veteritson\pantallas\mock\DatosMock.class
+com\mycompany\veteritson\pantallas\App.class
+com\mycompany\veteritson\pantallas\Navegador.class
+com\mycompany\veteritson\pantallas\Pantalla.class
+module-info.class
+com\mycompany\veteritson\pantallas\mock\DatosMock$Aplicacion.class
+com\mycompany\veteritson\pantallas\PantallaListadoMascotas.class
+com\mycompany\veteritson\pantallas\MenuLateral.class
+com\mycompany\veteritson\pantallas\Componentes.class
+com\mycompany\veteritson\pantallas\mock\DatosMock$Mascota.class
+com\mycompany\veteritson\pantallas\PantallaInicio.class
