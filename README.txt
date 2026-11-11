@@ -12,3 +12,5 @@ Cada quien tiene una rama con su nombre.
 6.- Avisarle a cualquier persona disponible que se abrió una PR
 
 hola
+
+hol de nuevo
