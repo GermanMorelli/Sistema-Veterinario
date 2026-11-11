@@ -1,0 +1,98 @@
+/* Estilos de VeterItson (colores tomados del diseño en Figma) */
+
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 13px;
+}
+
+/* Menú lateral */
+.menu {
+    -fx-background-color: #84b6b9;
+    -fx-padding: 20 12;
+    -fx-pref-width: 200;
+}
+
+.logo {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1d1b20;
+    -fx-padding: 0 0 20 0;
+}
+
+.opcion-menu {
+    -fx-background-color: #f3edf7;
+    -fx-background-radius: 12;
+    -fx-alignment: center-left;
+    -fx-padding: 10 12;
+    -fx-cursor: hand;
+}
+
+.opcion-menu:hover {
+    -fx-background-color: #e8def8;
+}
+
+/* Área de contenido */
+.pantalla {
+    -fx-background-color: #d9d9d9;
+    -fx-padding: 25;
+}
+
+.tarjeta {
+    -fx-background-color: white;
+    -fx-padding: 20;
+}
+
+.titulo {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.subtitulo {
+    -fx-font-weight: bold;
+}
+
+/* Botones */
+.boton-principal,
+.boton-secundario {
+    -fx-background-radius: 20;
+    -fx-padding: 8 18;
+    -fx-cursor: hand;
+}
+
+.boton-principal {
+    -fx-background-color: #6750a4;
+    -fx-text-fill: white;
+}
+
+.boton-secundario {
+    -fx-background-color: #e8def8;
+    -fx-text-fill: #4a4458;
+}
+
+/* Recuadros de resumen y foto */
+.resumen {
+    -fx-border-color: #cac4d0;
+    -fx-padding: 10 15;
+}
+
+.total {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.foto {
+    -fx-background-color: #e0e0e0;
+}
+
+/* Agenda */
+.celda {
+    -fx-border-color: #79747e;
+    -fx-border-width: 0.5;
+    -fx-padding: 4 6;
+    -fx-min-width: 85;
+    -fx-font-size: 11px;
+}
+
+.cita {
+    -fx-background-color: #7fd4f5;
+}
