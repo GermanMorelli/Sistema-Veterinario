@@ -1,8 +1,8 @@
 package com.mycompany.veteritson.pantallas;
 
+import javafx.scene.control.Label;
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
@@ -17,7 +17,7 @@ public final class Componentes {
     }
 
     /** Crea una etiqueta con un estilo del archivo CSS. */
-    public static Label texto(String texto, String estilo) {
+    public static javafx.scene.control.Label texto(String texto, String estilo) {
         Label etiqueta = new Label(texto);
         etiqueta.getStyleClass().add(estilo);
         return etiqueta;
