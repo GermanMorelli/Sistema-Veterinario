@@ -7,7 +7,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
-/** Representa a un cliente de la clínica veterinaria. */
 @Entity
 @Table(name = "cliente")
 public class Cliente {
