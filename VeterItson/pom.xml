@@ -8,6 +8,9 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>entidades</module>
+        <module>dao</module>
+        <module>negocio</module>
         <module>pantallas</module>
     </modules>
 
