@@ -1,0 +1,4 @@
+--patch-module
+veteritson.pantallas=_
+--add-reads
+veteritson.pantallas=ALL-UNNAMED
