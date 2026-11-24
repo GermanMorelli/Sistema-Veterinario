@@ -2,4 +2,6 @@
 module veteritson.negocio {
     requires veteritson.entidades;
     requires veteritson.dao;
+
+    exports com.mycompany.veteritson.negocio;
 }
