@@ -3,6 +3,7 @@ package com.mycompany.veteritson.dao;
 import com.mycompany.veteritson.entidades.Cita;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
+import java.time.LocalDate;
 import java.util.List;
 
 public class CitaDao implements ICitaDao {
@@ -45,6 +46,16 @@ public class CitaDao implements ICitaDao {
     @Override
     public Cita buscarPorId(int id) {
         return entityManager.find(Cita.class, id);
+    }
+
+    @Override
+    public List<Cita> listarPorVeterinario(int idVet, LocalDate fecha) {
+        return entityManager.createQuery(
+                "SELECT c FROM Cita c WHERE c.idVeterinario = :idVet "
+                + "AND c.fecha = :fecha", Cita.class)
+                .setParameter("idVet", idVet)
+                .setParameter("fecha", fecha)
+                .getResultList();
     }
 
     @Override
