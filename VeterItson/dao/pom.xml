@@ -13,14 +13,14 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.mycompany</groupId>
-            <artifactId>entidades</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
             <groupId>jakarta.persistence</groupId>
             <artifactId>jakarta.persistence-api</artifactId>
             <version>3.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>entidades</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 </project>

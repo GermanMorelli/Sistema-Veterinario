@@ -12,6 +12,7 @@
         <module>dao</module>
         <module>negocio</module>
         <module>pantallas</module>
+        <module>NegocioDTO</module>
     </modules>
 
     <properties>
